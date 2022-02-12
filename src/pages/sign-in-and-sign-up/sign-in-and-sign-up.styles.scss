@@ -1,0 +1,25 @@
+.sign-in-and-sign-up {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    width: unset;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .sign-in-and-sign-up {
+    flex-direction: column;
+    width: 100%;
+  }
+  .sign-in-and-sign-up .sign-in {
+    width: 100%;
+  }
+  .sign-in-and-sign-up .sign-up {
+    width: 100%;
+  }
+}
